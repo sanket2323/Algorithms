@@ -7,6 +7,8 @@ public class sevieOfEratosthenes {
         for (int i = 0; i <= 20; i++) {
             System.out.println(i + " " + isPrime[i]);
         }
+
+
     }
 
     static boolean[] method(int n) {
