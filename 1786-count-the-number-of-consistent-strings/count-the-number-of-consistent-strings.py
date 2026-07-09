@@ -1,6 +1,5 @@
 class Solution:
     def countConsistentStrings(self, allowed: str, words: List[str]) -> int:
-        len_a = len(allowed)
         hash_list = [0] * 26
         count = len(words)
         for ch in allowed:
