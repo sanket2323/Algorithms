@@ -5,7 +5,7 @@ class Solution:
         count = len(words)
         for ch in allowed:
             char_index = ord(ch) - ord('a')
-            hash_list[char_index] += 1
+            hash_list[char_index] = 1
 
         for word in words:
             for ch in word:
